@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="HandheldFriendly" content="true">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,500;0,800;1,500&display=swap"
+        rel="stylesheet">
+    <title>Gallery</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="menu-container">
+            <div class="top">
+                <a>NEURAL</a>
+                <a onclick="handleMenuClose()">CLOSE</a>
+            </div>
+
+            <div class="under-wrapper">
+                <div class="about-section">
+                    <div class="hide">
+                        <div class="reel-text">About</div>
+                    </div>
+                    <div class="long-text-container">
+                        <div class="hide">
+                            <div class="reel-text">Pursuing Art since</div>
+                        </div>
+                        <div class="hide">
+                            <div class="reel-text">Lorem ipsum, dolor sit amet</div>
+                        </div>
+                        <div class="hide">
+                            <div class="reel-text">Lorem ipsum, dolor sit amet</div>
+                        </div>
+                        <div class="hide">
+                            <div class="reel-text">Lorem ipsum, dolor sit amet</div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="credits">
+                    <div class="hide">
+                        <div class="reel-text">Credits</div>
+                    </div>
+                    <div class="hide">
+                        <div class="reel-text">Recreated by G.M.</div>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+        </div>
+
+        <div class="modal-filter"></div>
+        <div id="modal" class="closed">
+
+            <span class="arrow" id="left-arrow">‹</span>
+            <div class="mdl-img-container">
+                <img class="modal-image" src="">
+            </div>
+            <span class="arrow" id="right-arrow">›</span>
+
+        </div>
+        <div class="top-nav">
+            <a href="">NEURAL</a>
+            <a onclick="handleMenu()" id="showreel">SHOWREEL</a>
+        </div>
+        <div class="footer">
+            <a href="">BEHANCE</a>
+            <a class="credit">INSPIRED BY https://galleryoffame.art/</a>
+            <a href="">CATALOG</a>
+        </div>
+
+        <div class="middle-container">
+            <div class="text">
+                <p>IN A FUTURE</p>
+            </div>
+            <div class="text">
+                <p>FULL OF ART</p>
+            </div>
+        </div>
+        <div class="filter"></div>
+        <div class="gallery">
+            <div class="img">
+                <img class="inside_image" data-image-order="0" src="images/road1072823.jpg">
+            </div>
+            <div class="img">
+                <img class="inside_image" data-image-order="1" src="images/175111.jpg">
+            </div>
+            <div class="img">
+                <img class="inside_image" data-image-order="2" src="images/backdrop.jpg">
+            </div>
+            <div class="img">
+                <img class="inside_image" data-image-order="3" src="images/face.jpg">
+            </div>
+            <div class="img">
+                <img class="inside_image" data-image-order="4" src="images/gallery-interior_1284-12766.jpg">
+            </div>
+            <div class="img">
+                <img class="inside_image" data-image-order="5" src="images/hokusai.jpg">
+            </div>
+            <div class="img">
+                <img class="inside_image" data-image-order="6" src="images/morocco-2435391_640.jpg">
+            </div>
+            <div class="img">
+                <img class="inside_image" data-image-order="7" src="images/painted.jpg">
+            </div>
+            <div class="img">
+                <img class="inside_image" data-image-order="8" src="images/bird.jpg">
+            </div>
+            <div class="img">
+                <img class="inside_image" data-image-order="9" src="images/wakara.jpg">
+            </div>
+
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+        <script src="jsscript.js"></script>
+
+
+</body>
+
+</html>
